@@ -50,7 +50,7 @@ const animationStates = [//dữ liệu cho animations
         frames: 4,
     },
 ];
-// animationStates.forEach((tên lớp chung của các phần tử trong mảng, index của phần tử trong mảng) => {})
+// animationStates.forEach((giá trị của các phần tử trong mảng, index của phần tử trong mảng) => function {})
 animationStates.forEach((state, index) => {
     let frames = {
         loc: []
